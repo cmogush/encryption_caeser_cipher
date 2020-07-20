@@ -1,7 +1,7 @@
 # encryption_caeser_cipher
 Create and/or decipher Strings using Caesar cipher encryption.
 
-## Implementing the CaesarCipher
+## Classes
 
 <b>CaesarCipher</b> - a class to encrypt a String using a Caesar cipher. Contains the following methods:
 * <b>CaesarCipher</b> - constructor method that has one int parameter key. Initializes all the private fields of the class.
