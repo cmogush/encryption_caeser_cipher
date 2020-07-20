@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ testDecryptWithTwoKeys()
+comment1.params=
+comment1.target=void\ testDecryptCaesarTwoKeysGiveLetter()
+comment10.params=message
+comment10.target=int[]\ countChars(java.lang.String)
+comment11.params=values
+comment11.target=int\ indexOfMax(int[])
+comment2.params=
+comment2.target=void\ testDecryptCaesarWithKey()
+comment3.params=msg\ key
+comment3.target=java.lang.String\ decryptCaesarWithKey(java.lang.String,\ int)
+comment4.params=msg
+comment4.target=java.lang.String\ decryptCaesar(java.lang.String)
+comment5.params=
+comment5.target=void\ testDecryptSingleCaesar()
+comment6.params=mostOccuring
+comment6.target=java.lang.String\ getDecrypter(int)
+comment7.params=msg\ shiftedAlphabet
+comment7.target=java.lang.String\ decrypt(java.lang.String,\ java.lang.String)
+comment8.params=mostOccuring\ lowerCh
+comment8.target=java.lang.String\ shiftedAlpha(int,\ java.lang.String)
+comment9.params=
+comment9.target=void\ testCountChars()
+numComments=12

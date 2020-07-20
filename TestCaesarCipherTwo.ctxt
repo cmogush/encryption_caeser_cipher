@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ testDecryptTwoKeyMsg()
+comment1.params=
+comment1.target=void\ simpleDecryptInputCommonLetter()
+comment2.params=
+comment2.target=void\ simpleDecryptFileCommonLetter()
+comment3.params=
+comment3.target=void\ simpleTestsInput()
+comment4.params=
+comment4.target=void\ simpleTestsOriginal()
+comment5.params=input\ key
+comment5.target=java.lang.String\ breakCaesarCipher(java.lang.String,\ int)
+comment6.params=input
+comment6.target=java.lang.String\ breakCaesarCipherCommonLetter(java.lang.String)
+comment7.params=msg\ start
+comment7.target=java.lang.String\ halfOfString(java.lang.String,\ int)
+comment8.params=values
+comment8.target=int\ indexOfMax(int[])
+comment9.params=message
+comment9.target=int[]\ countChars(java.lang.String)
+numComments=10
