@@ -12,6 +12,8 @@ Create and/or decipher Strings using Caesar cipher encryption
 * testEncrypt - test encryption of a String from user input
 * testEncryptTwoKeys - tests the encryptTwoKeys method from a String given via user input
 
+link to exercise: https://www.coursera.org/learn/java-programming-arrays-lists-data/supplement/DvNzQ/programming-exercise-implementing-the-caesar-cipher
+
 ## Breaking the Caesar Cipher
 
 <b>WordLengths</b> - 
