@@ -1,7 +1,7 @@
 # encryption_caeser_cipher
 Program to encrypt Strings using (1 or 2) keys and the Caeser cipher algorithm, or break the cipher of an encrypted message.
 
-## Main Program Classes
+## Main Classes
 
 <b>CaesarCipher</b> - a class to encrypt a String using a Caesar cipher. Contains the following methods:
 * <b>CaesarCipher</b> - constructor method that has one int parameter key. Initializes all the private fields of the class.
