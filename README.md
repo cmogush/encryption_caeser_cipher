@@ -1,5 +1,5 @@
 # encryption_caeser_cipher
-Program to encrypt Strings using (1 or 2) keys and the Caeser cipher algorithm, or break/decrypt the cipher of an already encrypted message.
+Program to encrypt Strings using (1 or 2) keys and the Caeser cipher algorithm, or break the cipher of an encrypted message.
 
 ## Main Program Classes
 
