@@ -1,7 +1,7 @@
 # encryption_caeser_cipher
 Create and/or decipher Strings using Caesar cipher encryption
 
-##Implementing the CaesarCipher
+## Implementing the CaesarCipher
 
 <b>CaesarCipher</b> - a program to encrypt a String using a Caesar cipher. Contains the following methods:
 * encrypt - has two parameters, a String named input and an int named key. This method returns a String that has been encrypted using the Caesar Cipher algorithm.
@@ -12,6 +12,6 @@ Create and/or decipher Strings using Caesar cipher encryption
 * testEncrypt - test encryption of a String from user input
 * testEncryptTwoKeys - tests the encryptTwoKeys method from a String given via user input
 
-##Breaking the Caesar Cipher
+## Breaking the Caesar Cipher
 
 <b>WordLengths</b> - 
