@@ -16,4 +16,9 @@ link to exercise: https://www.coursera.org/learn/java-programming-arrays-lists-d
 
 ## Breaking the Caesar Cipher
 
-<b>WordLengths</b> - 
+<b>WordLengths</b> - program to figure out the most common word length of words from a file. Contains the following methods:
+* <b>countWordLengths</b> - has two parameters, a FileResource named resource and an integer array named counts. This method reads in the words from resource and counts the number of words of each length for all the words in resource, storing these counts in the array counts.
+  * For example, after this method executes, counts[k] should contain the number of words of length k.
+  * Uses <b>Character.isLetter</b> - helper method that returns true if a character is a letter, and false otherwise.
+* <b>indexOfMax</b> - has one parameter named values that is an integer array. This method returns the index position of the largest element in values. 
+* <b>testCountWordLengths</b> - creates a FileResource so you can select a file, and creates a counts integer array of size 31. Calls <b>countWordLengths</b> with a file and then print the number of words of each length. Calls <b>indexOfMax</b> to determine the most common word length in the file.
