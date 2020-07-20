@@ -1,7 +1,7 @@
 # encryption_caeser_cipher
 Create and/or decipher Strings using Caesar cipher encryption.
 
-## Classes
+## Main Program Classes
 
 <b>CaesarCipher</b> - a class to encrypt a String using a Caesar cipher. Contains the following methods:
 * <b>CaesarCipher</b> - constructor method that has one int parameter key. Initializes all the private fields of the class.
@@ -26,15 +26,15 @@ Create and/or decipher Strings using Caesar cipher encryption.
   * keyOneAlphabet - alphabet shifted by the key1.
   * keyTwoAlphabet - alphabet shifted by the key2.
 
-<b>CaesarDecrypt</b> - contains the following methods:
-* <b>decryptCaesar</b> - takes in an encrypted String and returns the decrypted message
-* <b>encrypt</b> - has one String parameter named input. This method returns a String that is the input encrypted using the two shifted alphabets.
-* <b>decrypt</b> - has one String parameter named input. This method returns a String that is the encrypted String decrypted using the key1 and key2 associated with this CaesarCipherTwo object.
-
 <b>TestCaeserCipherTwo</b> - class to test the CaeserCipherTwo. Contains the following methods:
 * <b>countChars</b> - helper method to find the greatest occuring char in a String.
 * <b>indexOfMax</b> - calculates and return the index of the largest letter frequency.
 * <b>decrypt</b> - creates a CaesarCipher object in order to use the encrypt method.
+* <b>simpleTestsOriginal</b> -  read in a file as a String, create a CaesarCipherTwo object with keys 17 and 3, encrypt the String using the CaesarCipherTwo object, print the encrypted String, and decrypt the encrypted String using the decrypt method.
+* <b>breakCaesarCipher</b> - has one String parameter named input. This method figures out which keys were used to encrypt this message, then creates a CaesarCipherTwo object with that key and decrypt the message.
+* <b>simpleDecryptFileCommonLetter</b> - calls to breakCaesarCipher on the encrypted String to decrypt it automatically by determining the keys, and then print the decrypted String.
+
+## Conceptual Classes
 
 <b>WordPlay</b> - a class to transform words from a file into another form, such as replacing vowels with an asterix. Contains the following methods:
 * <b>isVowel</b> - has one Char parameter named ch. This method returns true if ch is a vowel (one of 'a', 'e', 'i', 'o', or 'u' or the uppercase versions) and false otherwise.
